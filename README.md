@@ -4,9 +4,9 @@
 ## 使用方法
 分词功能通过复制操作触发，当您在任何界面选择文字并复制，屏幕右上角会显示悬浮按钮，点击悬浮按钮会显示分词界面，在分词界面下方可以可提供对本段文字的关键字提取及分类打开功能，在分词界面可以对选中的单词进行搜索，翻译，复制，分享功能。
 
-![](image/1.png) ![](image/2.png)
+![image](https://github.com/MissMidou/Midou_BigBang/blob/master/image/1.png) ![image](https://github.com/MissMidou/Midou_BigBang/blob/master/image/2.png)
 
-![](image/3.png) ![](image/4.png)
+![image](https://github.com/MissMidou/Midou_BigBang/blob/master/image/3.png) ![image](https://github.com/MissMidou/Midou_BigBang/blob/master/image/4.png)
 ## 特别鸣谢
 本应用开发过程中使用了如下开源SDK：
 - 三角兽分词
