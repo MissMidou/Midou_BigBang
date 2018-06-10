@@ -10,5 +10,5 @@
     <string name="about_alert_dialog_title">关于米豆分词</string>
     <string name="about_alert_dialog_msg">\n\t\t\t\t本应用参考锤子手机"Bigbang"和小米手机传送门功能，可以方便用户体验分词功能，由于应用权限限制、开发资源有限，用户体验不及锤子手机系统级别的"Bigbang"功能。\n\t\t\t\t
         如果您对本产品有任何意见或建议，欢迎反馈，谢谢^^\n\n\n
-    代码连接： http://git.oschina.net/\n\n</string>
+    代码连接： https://github.com/MissMidou/Midou_BigBang/\n\n</string>
 </resources>
