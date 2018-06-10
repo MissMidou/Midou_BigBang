@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.srct.bigbong">
+
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.SYSTEM_OVERLAY_WINDOW" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+
+    <application
+        android:name=".BigBangApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".view.impl.SplashActivity"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".view.impl.MainActivity">
+
+        </activity>
+
+        <service
+            android:name=".model.impl.MyAccessibilityService"
+            android:exported="true"
+            android:label="@string/accessibility_tip"
+            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE">
+            <intent-filter>
+                <action android:name="android.accessibilityservice.AccessibilityService" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.accessibilityservice"
+                android:resource="@xml/accessibility_config" />
+        </service>
+        <service android:name=".model.impl.ClipboardListenerService"></service>
+
+        <activity android:name=".view.impl.BigbangActivity"
+            android:launchMode="singleInstance"></activity>
+        <activity
+            android:name=".view.impl.BaiduSearchActivity"
+            android:launchMode="singleInstance"
+            android:theme="@style/DialogActivityTheme">
+        </activity>
+        <activity
+            android:name=".view.impl.TranslateActivity"
+            android:launchMode="singleInstance"
+            android:theme="@style/DialogActivityTheme">
+        </activity>
+        <activity
+            android:name=".view.impl.KeywordSearchActivity"
+            android:launchMode="singleInstance"
+            android:theme="@style/DialogActivityTheme">
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="page_margin_left">17dp</dimen>
+    <dimen name="page_margin_right">16dp</dimen>
+    <dimen name="word_min_width">33dp</dimen>
+    <dimen name="word_base_width">18dp</dimen>
+    <dimen name="boom_chip_text_size">15dp</dimen>
+    <dimen name="boom_chip_text_pending">5dp</dimen>
+    <dimen name="boom_chip_text_space">10dp</dimen>
+    <dimen name="boom_view_padding">10dp</dimen>
+    <dimen name="boom_button_height">50dp</dimen>
+    <dimen name="boom_button_bottom_height">15dp</dimen>
+    <dimen name="cardview_text_height">50dp</dimen>
+    <dimen name="card_view_text_size">18dp</dimen>
+</resources>

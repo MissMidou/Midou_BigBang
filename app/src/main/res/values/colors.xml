@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="boom_chip_text_color">#454545</color>
+    <color name="test">#FF0000</color>
+    <color name="primary_dark">#55555555</color>
+    <color name="primary_light">#fafafa</color>
+
+</resources>

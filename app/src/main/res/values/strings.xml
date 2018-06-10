@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">BigBang</string>
+    <string name="accessibility_tip">Bigbang获取文字</string>
+    <string name="accessibility_desc">打开右上角开关，在弹出对话框中点击“确认”\n开启后，可以再在微信，QQ等应用页面中选中文字进行分词。\n该服务无需获取手机Root权限，支持Android4.1以上系统。</string>
+    <string name="guide_alert_dialog_title">米豆分词使用说明</string>
+    <string name="guide_alert_dialog_msg">\n\t\t\t\t本应用模仿锤子手机"bigbang"功能，主要功能是提供用户对选择的文字进行分词处理，关键字提取及分类相关操作。\n\t\t\t\t
+    该功能通过复制操作触发，当您在任何界面选择文字并复制，屏幕右上角会显示悬浮按钮，点击悬浮按钮开始分词，进入分词界面，屏幕下方可提供对本段文字关键字提取及搜索快捷操作。\n\t\t\t\t
+    在分词界面您可以选择若干文字，进行翻译、分享、粘贴、搜索等操作。\n\n</string>
+    <string name="alert_dialog_ok">确认</string>
+    <string name="about_alert_dialog_title">关于米豆分词</string>
+    <string name="about_alert_dialog_msg">\n\t\t\t\t本应用参考锤子手机"Bigbang"和小米手机传送门功能，可以方便用户体验分词功能，由于应用权限限制、开发资源有限，用户体验不及锤子手机系统级别的"Bigbang"功能。\n\t\t\t\t
+        如果您对本产品有任何意见或建议，欢迎反馈，谢谢^^\n\n\n
+    代码连接： http://git.oschina.net/\n\n</string>
+</resources>
