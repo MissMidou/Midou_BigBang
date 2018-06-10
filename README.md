@@ -1,4 +1,5 @@
 # Midou_BigBang
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 ## 简介
 本应用模仿锤子手机Bigbang和小米手机传送门功能,可以方便用户体验分词及关键词提取分类功能。
 ## 使用方法
