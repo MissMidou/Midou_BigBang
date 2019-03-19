@@ -29,8 +29,8 @@ public class TenCentKeyword {
             @Override
             public void run() {
                 TreeMap<String, Object> config = new TreeMap<String, Object>();
-                config.put("SecretId", "AKIDPiqnaCfCC7rPlvMgE1scAXnsnZFj871j");
-                config.put("SecretKey", "fBaZVaWN2UnupY6UIzZBdt486vb8TVSD");
+                config.put("SecretId", "");
+                config.put("SecretKey", "");
                 config.put("RequestMethod", "GET");
                 config.put("DefaultRegion", "tj");
 
